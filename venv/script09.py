@@ -14,5 +14,5 @@ while z <=100 :
         y = radius*math.sin(theta) + randomShift
         point = (x,y,z)
         rs.AddPoint(point)
-        theta += .5 #random.uniform(-1.0,1.0)*z
+        theta += .05 #random.uniform(-1.0,1.0)*z
     z += .3
