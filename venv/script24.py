@@ -1,6 +1,6 @@
 # recursion tree
 
-import rhinoscruptsyntax as rs
+import rhinoscriptsyntax as rs
 import random
 
 def tree(trunk, desiredLevel, currentLevel=0):
@@ -15,4 +15,4 @@ def tree(trunk, desiredLevel, currentLevel=0):
         tree(newBranch2, desiredLevel, currentLevel+1)
 
 startLine = rs.AddLine((0,0,0),(0,0,20))
-tree(startLine, 3)
+tree(startLine, 6)
