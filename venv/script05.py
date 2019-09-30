@@ -1,3 +1,5 @@
+#Add points along a cone surface
+
 import rhinoscriptsyntax as rs
 import random
 import math

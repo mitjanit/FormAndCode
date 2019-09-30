@@ -1,3 +1,5 @@
+# Adds a random point
+
 import rhinoscriptsyntax as rs
 import random
 

@@ -1,3 +1,5 @@
+#Adds 1000 random points distant [90,95] from origin (0,0,0)
+
 import rhinoscriptsyntax as rs
 import random
 

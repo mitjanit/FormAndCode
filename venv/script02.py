@@ -1,3 +1,5 @@
+#Adds 1000 random points
+
 import rhinoscriptsyntax as rs
 import random
 

@@ -1,4 +1,4 @@
-# recursion tree
+# recursion trees over surface
 
 import rhinoscruptsyntax as rs
 import random
