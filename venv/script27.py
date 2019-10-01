@@ -19,5 +19,6 @@ for curve in curves:
             intersectionPoint = intersections[0][1]
             intersectionPoints.append(intersectionPoint)
         pointObs = rs.AddPoints(intersectionPoints)
+        rs.ObjectLayer(pointObs, "drawingOnSurface")
         reconstructedCurve = rs.AddInterpCurve(intersectionPoints, 1)
         rs.ObjectLayer(reconstructedCurve, "drawingOnSurface")
